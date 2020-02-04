@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     let questions: [String] = [
         "Who are the bravest soldiers in the world??",
         "What is the capital of Nepal?",
-        "Where is the highest mountain of world?"
+        "What is the highest mountain of world?"
     ]
     
     let answers: [String] = [
@@ -47,9 +47,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        questionLabel.text = questions[currentQuestionIndex]
     }
-
-
 }
 
