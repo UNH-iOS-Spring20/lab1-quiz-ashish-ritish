@@ -15,32 +15,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVg-p1-8P7">
-                                <rect key="frame" x="186" y="114" width="25" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVg-p1-8P7">
+                                <rect key="frame" x="194.5" y="114" width="25" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VoY-qw-UoT">
-                                <rect key="frame" x="186" y="387" width="25" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VoY-qw-UoT">
+                                <rect key="frame" x="194.5" y="387" width="25" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VlX-fl-E72">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VlX-fl-E72">
                                 <rect key="frame" x="184" y="173" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5v-x0-Nec">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5v-x0-Nec">
                                 <rect key="frame" x="184" y="440" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="VoY-qw-UoT" firstAttribute="centerX" secondItem="DVg-p1-8P7" secondAttribute="centerX" id="0GZ-i6-pZk"/>
+                            <constraint firstItem="VlX-fl-E72" firstAttribute="top" secondItem="DVg-p1-8P7" secondAttribute="bottom" constant="38" id="58r-Dr-VHi"/>
+                            <constraint firstItem="VoY-qw-UoT" firstAttribute="top" secondItem="VlX-fl-E72" secondAttribute="bottom" constant="184" id="B3T-cc-fUQ"/>
+                            <constraint firstItem="p5v-x0-Nec" firstAttribute="top" secondItem="VoY-qw-UoT" secondAttribute="bottom" constant="32" id="WMi-gU-XJg"/>
+                            <constraint firstItem="VlX-fl-E72" firstAttribute="centerX" secondItem="DVg-p1-8P7" secondAttribute="centerX" id="Yha-eO-cHd"/>
+                            <constraint firstItem="p5v-x0-Nec" firstAttribute="centerX" secondItem="DVg-p1-8P7" secondAttribute="centerX" id="cyC-eW-IxY"/>
+                            <constraint firstItem="DVg-p1-8P7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="hc4-1s-arR"/>
+                            <constraint firstItem="VlX-fl-E72" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v7t-Lp-2lD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
