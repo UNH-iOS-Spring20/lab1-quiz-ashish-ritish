@@ -1,10 +1,6 @@
-//
-//  ViewController.swift
-//  Quiz
-//
-//  Created by Ashish Shrestha on 2/4/20.
-//  Copyright © 2020 Ashish Shrestha. All rights reserved.
-//
+//  Assignment 1: Quiz App
+//  Created by Ashish Shrestha and Ritish Karki on 2/4/20.
+//  Copyright © 2020 Ashish Shrestha and Ritish Karki. All rights reserved.
 
 import UIKit
 
