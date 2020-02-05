@@ -8,7 +8,7 @@ class ViewController: UIViewController {
     @IBOutlet var questionLabel: UILabel!
     @IBOutlet var answerLabel: UILabel!
     
-    // Questions array to display on the view
+    // Questions array to display on the Views
     let questions: [String] = [
         "Who are the bravest soldiers in the world??",
         "What is the capital of Nepal?",
